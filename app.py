@@ -235,7 +235,7 @@ if st.session_state.page == "Home":
         Experienced in data analysis, statistical modeling, and software development.
         </p>
         <p>
-        <b>Looking for:</b> Student position or internship in Business Intelligence Data Analysis, Software Development, or other tech roles.
+        <b>Looking for:</b> Student position or internship in Business Intelligence, Data Analysis, Software Development or other tech roles.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -277,8 +277,8 @@ elif st.session_state.page == "About":
     <p>I'm a Computer Science and Statistics student at Tel Aviv University with hands-on experience in data collection, 
     analysis, and software development. I enjoy working with data - whether it's analyzing market trends, 
     building clustering algorithms, or creating visualizations that tell a story.</p>
-    <p>I'm looking for a student position or internship where I can apply my skills in Business Intelligence ,data analysis, 
-    software development, or any tech-related role.</p>
+    <p>I'm looking for a student position or internship where I can apply my skills in Business Intelligence, Data Analysis, 
+    Software Development or any tech-related role.</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -450,6 +450,7 @@ elif st.session_state.page == "Contact":
     </div>
 
     """, unsafe_allow_html=True)
+
 
 
 
