@@ -245,7 +245,7 @@ if st.session_state.page == "Home":
     with col_a:
         st.markdown(f"""
         <div class="metric-box">
-            <h3>{len(PROJECTS)}</h3>
+            <h3>{"3+"}</h3>
             <p>Projects</p>
         </div>
         """, unsafe_allow_html=True)
@@ -253,7 +253,7 @@ if st.session_state.page == "Home":
     with col_b:
         st.markdown("""
         <div class="metric-box">
-            <h3>86.4</h3>
+            <h3>85.6</h3>
             <p>CS GPA</p>
         </div>
         """, unsafe_allow_html=True)
@@ -450,3 +450,4 @@ elif st.session_state.page == "Contact":
     </div>
 
     """, unsafe_allow_html=True)
+
