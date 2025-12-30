@@ -235,7 +235,7 @@ if st.session_state.page == "Home":
         Experienced in data analysis, statistical modeling, and software development.
         </p>
         <p>
-        <b>Looking for:</b> Student position or internship in data analysis, software development, or other tech roles.
+        <b>Looking for:</b> Student position or internship in Business Intelligence Data Analysis, Software Development, or other tech roles.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -450,5 +450,6 @@ elif st.session_state.page == "Contact":
     </div>
 
     """, unsafe_allow_html=True)
+
 
 
