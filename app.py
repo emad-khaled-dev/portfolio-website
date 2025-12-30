@@ -222,51 +222,50 @@ with col5:
         st.session_state.page = "Contact"
 
 st.divider()
-
 # --- PAGE: HOME ---
 if st.session_state.page == "Home":
-    col1, col2 = st.columns([1, 1.8], gap="large")
-    
-    with col1:
-        try:
-            st.image("profile_pic.png", width=280)
-        except:
-            st.info("Profile picture placeholder")
-    
-    with col2:
-        st.title("Emad Khaled")
-        st.subheader("Computer Science & Statistics Student")
-        
-        st.markdown("""
-        <div class="professional-card">
-            <p>Third-year student at Tel Aviv University pursuing a dual degree in Computer Science and Statistics. 
-            Experienced in data analysis, statistical modeling, and software development.</p>
-            <p><b>Looking for:</b> Student position or internship in data analysis, software development, or other tech roles.</p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        col_a, col_b, col_c = st.columns(3)
-        with col_a:
-            st.markdown(f"""
-            <div class="metric-box">
+
+    st.title("Emad Khaled")
+    st.subheader("Computer Science & Statistics Student")
+
+    st.markdown("""
+    <div class="professional-card">
+        <p>
+        Third-year student at Tel Aviv University pursuing a dual degree in Computer Science and Statistics. 
+        Experienced in data analysis, statistical modeling, and software development.
+        </p>
+        <p>
+        <b>Looking for:</b> Student position or internship in data analysis, software development, or other tech roles.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    col_a, col_b, col_c = st.columns(3)
+
+    with col_a:
+        st.markdown(f"""
+        <div class="metric-box">
             <h3>{len(PROJECTS)}</h3>
             <p>Projects</p>
-            </div>
-            """, unsafe_allow_html=True)
-        with col_b:
-            st.markdown("""
-            <div class="metric-box">
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_b:
+        st.markdown("""
+        <div class="metric-box">
             <h3>86.4</h3>
             <p>CS GPA</p>
-            </div>
-            """, unsafe_allow_html=True)
-        with col_c:
-            st.markdown("""
-            <div class="metric-box">
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_c:
+        st.markdown("""
+        <div class="metric-box">
             <h3>2027</h3>
             <p>Graduation</p>
-            </div>
-            """, unsafe_allow_html=True)
+        </div>
+        """, unsafe_allow_html=True)
+
 
 # --- PAGE: ABOUT ---
 elif st.session_state.page == "About":
@@ -449,4 +448,5 @@ elif st.session_state.page == "Contact":
     <div class="professional-card">
     <p>Open to student positions, internships, and project collaborations. Feel free to reach out!</p>
     </div>
+
     """, unsafe_allow_html=True)
