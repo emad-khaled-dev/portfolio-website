@@ -371,7 +371,7 @@ elif st.session_state.page == "Education":
     <h4>Tel Aviv University</h4>
     <p><b>B.Sc. Computer Science & Statistics (Dual Degree)</b></p>
     <p>Oct 2022 - July 2027 (Expected)</p>
-    <p><b>GPA:</b> Computer Science: 86.4 | Statistics: 81.1</p>
+    <p><b>GPA:</b> Computer Science: 85.6 | Statistics: 81.1</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -450,6 +450,7 @@ elif st.session_state.page == "Contact":
     </div>
 
     """, unsafe_allow_html=True)
+
 
 
 
